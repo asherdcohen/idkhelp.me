@@ -1,0 +1,21 @@
+/* Add necessary CSS styles for the message and icon */
+.app-container {
+    position: relative;
+}
+
+.desktop-only-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.app-icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 20px;
+}

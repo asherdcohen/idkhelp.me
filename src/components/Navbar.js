@@ -10,7 +10,7 @@ import emailjs from 'emailjs-com';
 const Navbar = () => {
     // Define the validation schema
     const validationSchema = Yup.object({
-        email: Yup.string().email('Invalid email address').required('Required'),
+        email: Yup.string().email('Invalid email address')
     });
 
     // Define the submit function
