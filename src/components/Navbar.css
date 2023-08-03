@@ -1,0 +1,43 @@
+/* Navbar.css */
+nav {
+    display: flex;
+    align-items: center;
+    /* padding: 0.5rem; */
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+.logo img {
+    width: 20%;
+    margin-left: 200px;
+    min-width: 15%;
+    /* Reduce the size of the icon */
+}
+
+.signup-form {
+    align-items: center;
+    /* Increase the right margin to move the form more to the right */
+    width: 100%;
+    margin-left: 22rem;
+}
+
+.signup-form input {
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    flex: 2;
+    font-size: 16px;
+}
+
+.signup-form button {
+    padding: 0.7rem 1.5rem;
+    flex: 1;
+    font-size: 16px;
+    background-color: #C8C0FD;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

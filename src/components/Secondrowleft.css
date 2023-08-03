@@ -1,0 +1,85 @@
+/* SecondRowLeft.css */
+.second-row-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 100px;
+    /* justify-content: space-between; */
+    padding: 2rem;
+    color: black;
+    flex: 1;
+    /* Set flex to 1 to occupy the left side */
+}
+
+.row {
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.row p {
+    margin: 0;
+}
+
+.form-container {
+    text-align: center;
+    display: flex;
+    padding-right: 50px;
+    margin-left: auto;
+    align-items: center;
+    /* Center the form vertically */
+    width: 100%;
+    /* Use flexbox to align input and button horizontally */
+}
+
+.form-container input {
+    flex: 1;
+    /* Make the input field grow to fill available space */
+    padding: 1.5% 2%;
+    /* Use percentage-based padding for the input field */
+    margin-right: 10%;
+    /* Use percentage-based margin for spacing */
+    border: 1px solid #000000;
+    /* Thin black border */
+    border-radius: 6px;
+    /* Slightly rounded corners */
+    font-size: 18px;
+    /* Use percentage-based font size */
+    width: auto;
+    /* Adjust the width of the input field */
+    text-align: left;
+    /* Align the text to the left */
+    height: 20px;
+    line-height: 1;
+    /* Use percentage-based height for the input field */
+}
+
+.form-container button {
+    flex: 1;
+    /* Make the button grow to fill available space */
+    padding: 1.5% 5%;
+    /* Use percentage-based padding for the button */
+    background-color: #C8C0FD;
+    /* Light purple color */
+    color: #000000;
+    /* Black text */
+    border: none;
+    border-radius: 6px;
+    /* Slightly rounded corners */
+    cursor: pointer;
+    font-size: 20px;
+    /* Use percentage-based font size */
+    height: 35px;
+    /* Use percentage-based height for the button */
+    width: 60px;
+    /* Adjust the width of the button */
+    text-align: center;
+    /* Center the text horizontally */
+    line-height: 1;
+    /* Set line-height to 1 to center the text vertically */
+}
+
+.backgroundColor {
+    border-radius: 5px;
+}

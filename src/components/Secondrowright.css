@@ -1,0 +1,17 @@
+.simplify-image {
+
+    max-width: 80%;
+    width: 80%;
+    height: auto;
+
+}
+
+.second-row-right {
+    display: flex;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    padding: 2rem;
+    color: black;
+}
