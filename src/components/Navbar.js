@@ -19,7 +19,7 @@ const Navbar = () => {
         const templateParams = {
             // Customize the email content using the form values
             from_name: 'Sender Name',
-            message: `Email: ${values.email}`, // Customize the message here
+            values_email: values.email, // Use values.email to get the email input
         };
 
         emailjs
@@ -50,7 +50,7 @@ const Navbar = () => {
             <Formik
                 initialValues={{ email: '' }}
                 validationSchema={validationSchema}
-                onSubmit={handleSubmit} // Pass the handleSubmit function directly to onSubmit prop
+                onSubmit={handleSubmit}
             >
                 <Form>
                     <div className="signup-form">
