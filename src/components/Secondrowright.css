@@ -1,11 +1,11 @@
-.simplify-image {
+/* .simplify-image {
 
     max-width: 80%;
     width: 80%;
     height: auto;
 
 }
-
+*/
 .second-row-right {
     display: flex;
     margin-right: 100px;
@@ -14,4 +14,15 @@
     flex: 1;
     padding: 2rem;
     color: black;
+}
+
+.simplify-gif {
+    width: 110%;
+    /* Set the width of the container */
+    height: 66%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 5px solid #000;
+    /* Set the height of the container */
+    /* Add any other styles you want for the GIF container */
 }
