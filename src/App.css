@@ -1,5 +1,11 @@
 .body {
-    background-color: #f9f9fb
+    background-color: #f9f9fb;
 }
 
-;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+}

@@ -1,25 +1,35 @@
-/* Navbar.css */
 nav {
     display: flex;
     align-items: center;
-    /* padding: 0.5rem; */
     background-color: #f9f9f9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: auto;
+    width: 100%;
+    /* Ensure the navbar takes up the full width */
+}
+
+.logo {
+    flex: 1;
+    /* Let the logo grow to fill the available space */
 }
 
 .logo img {
-    width: 20%;
-    margin-left: 200px;
-    min-width: 15%;
-    /* Reduce the size of the icon */
+    min-width: 10%;
+    max-width: 10%;
+    height: auto;
+    padding: 1rem;
+    padding-left: 150px;
 }
 
 .signup-form {
+    display: flex;
+    /* Use flex to position the form container */
     align-items: center;
-    /* Increase the right margin to move the form more to the right */
-    width: 100%;
-    margin-left: 22rem;
+    justify-content: flex-end;
+    /* Align the form to the right */
+    flex: 1;
+    /* Let the form grow to fill the available space */
+    padding: 1rem;
+    padding-right: 150px;
 }
 
 .signup-form input {
@@ -27,13 +37,13 @@ nav {
     margin-right: 0.5rem;
     border: 1px solid #000000;
     border-radius: 6px;
-    flex: 2;
+    flex: 1;
+    /* Let the input grow to fill the available space */
     font-size: 16px;
 }
 
 .signup-form button {
     padding: 0.7rem 1.5rem;
-    flex: 1;
     font-size: 16px;
     background-color: #C8C0FD;
     color: #000000;

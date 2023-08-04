@@ -1,6 +1,7 @@
 /* Add necessary CSS styles for the message and icon */
 .app-container {
     position: relative;
+    background-color: #f9f9fb;
 }
 
 .desktop-only-message {
