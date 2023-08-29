@@ -22,7 +22,7 @@ const Secondrowleft = () => {
                 paddingTop: "30px",
                 marginBottom: "50px"
             }}>
-                <p>Join 2000+ learners on our waitlist</p>
+                {/* <p>Join 2000+ learners on our waitlist</p> */}
                 {/* <div className="signup-form" style={{
                     paddingTop: "30px"
                 }}>
